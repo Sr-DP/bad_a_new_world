@@ -970,6 +970,29 @@ body {
     .section-stories {
       padding: 10rem 0; } }
 
+/* Estilos para el logotipo en el footer */
+.footer-logo {
+  /* Estilos generales */
+  padding: 2rem; /* Ajusta el valor según sea necesario */
+  background-color: #333; /* Cambia el color de fondo según sea necesario */
+
+  /* Media query para pantallas más pequeñas */
+  @media only screen and (max-width: 56.5em) {
+    .footer-logo {
+      padding: 1.5rem; /* Ajusta el valor según sea necesario para pantallas más pequeñas */
+    }
+  }
+
+  /* Media query para pantallas medianas */
+  @media only screen and (max-width: 75em) {
+    .footer-logo {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+  }
+}
+
+
 .section-book {
   padding: 15rem 0;
   background-image: linear-gradient(to right bottom, #0A082D, #72AFC1); }
