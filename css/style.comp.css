@@ -679,6 +679,30 @@ body {
     transform: translateX(-4rem) scale(1);
     filter: blur(3px) brightness(80%); }
 
+
+/* Estilo predeterminado para la imagen */
+.logo-img {
+  width: 100%;
+  height: auto;
+}
+
+/* Media query para pantallas más pequeñas */
+@media only screen and (max-width: 750px) {
+  .logo-img {
+      width: 50%; /* Cambia el tamaño de la imagen para pantallas más pequeñas según sea necesario */
+  }
+}
+@media only screen and (max-width: 900px) {
+  .logo-img {
+      width: 70%; /* Cambia el tamaño de la imagen para pantallas más pequeñas según sea necesario */
+  }
+}
+@media only screen and (max-width: 450px) {
+  .logo-img {
+      width: 30%; /* Cambia el tamaño de la imagen para pantallas más pequeñas según sea necesario */
+  }
+}
+
 .footer {
   background-color: #333;
   padding: 10rem 0;
@@ -970,27 +994,7 @@ body {
     .section-stories {
       padding: 10rem 0; } }
 
-/* Estilos para el logotipo en el footer */
-.footer-logo {
-  /* Estilos generales */
-  padding: 2rem; /* Ajusta el valor según sea necesario */
-  background-color: #333; /* Cambia el color de fondo según sea necesario */
 
-  /* Media query para pantallas más pequeñas */
-  @media only screen and (max-width: 56.5em) {
-    .footer-logo {
-      padding: 1.5rem; /* Ajusta el valor según sea necesario para pantallas más pequeñas */
-    }
-  }
-
-  /* Media query para pantallas medianas */
-  @media only screen and (max-width: 75em) {
-    .footer-logo {
-      padding-left: 0.5rem;
-      padding-right: 0.5rem;
-    }
-  }
-}
 
 
 .section-book {
