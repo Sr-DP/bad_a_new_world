@@ -686,20 +686,30 @@ body {
   height: auto;
 }
 
+
 /* Media query para pantallas más pequeñas */
 @media only screen and (max-width: 750px) {
   .logo-img {
       width: 50%; /* Cambia el tamaño de la imagen para pantallas más pequeñas según sea necesario */
+  }
+  .imagen_bri{
+    width: 50%;
   }
 }
 @media only screen and (max-width: 900px) {
   .logo-img {
       width: 70%; /* Cambia el tamaño de la imagen para pantallas más pequeñas según sea necesario */
   }
+  .imagen_bri{
+    width: 70%;
+  }
 }
 @media only screen and (max-width: 450px) {
   .logo-img {
       width: 30%; /* Cambia el tamaño de la imagen para pantallas más pequeñas según sea necesario */
+  }
+  .imagen_bri{
+    width: 30%;
   }
 }
 

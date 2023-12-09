@@ -1,0 +1,31 @@
+La primera Libreria:
+La librería Arnold es un motor de renderizado desarrollado por Solid Angle y adquirido por Autodesk. Se utiliza en conjunto con Autodesk Maya y otros programas de modelado y animación 3D para generar imágenes fotorrealistas. Algunas características clave de Arnold incluyen ray tracing, iluminación global (GI), shaders avanzados y simulación de materiales. Arnold se integra con XGen para la creación de cabello y otros efectos de fibra.
+La segunda Libreria:
+XGen es una librería y sistema de creación de cabello, pelaje y vegetación desarrollado por Autodesk. Permite la generación de cabello y pelaje realistas mediante la distribución de curvas a lo largo de una superficie. XGen también se utiliza para crear vegetación, como hierba y árboles, integrándose nativamente con Arnold para renderizados realistas.
+
+
+Para el modelado del Modelo de la Universidad:
+
+Fue desarrollada con una de las tecnicas mas comunes, la utilizacion de multiples elementos para armar una sola figura al final, utilizando multiples tecnicas de deformacion se hizo la estructura.
+
+Para eñ modelado de la montaña
+
+Se aplico una tecnica de deformacion que consiste en tomar una imagen base en blanco y negro y aplicarle la iluminacion que hace que se creen relieves en una forma plana y si dandole un tono suave. Tambien se debe tener en cuenta que la cantidad de poligonos que son necesarios para aplicar tal suavidad. son 1000 poligonos por 1000 poligonos.
+
+Para el modelado de la fuente se uso una tecnica de deformacion en un unico objeto y otro componente cilindrico para aplicar el una textura de agua y un emisor de particulas que simule la caida de agua desde la parte superior de la fuente, con un texturizado  para cada particula de del emisor de particulas que simula la caida de agua en la fuente. mas un estilizado tipo metalico para la fuente.
+
+
+Para el modelado del arbol se uso la libreria Arnold y la libreria xgen conjuntamente, aparte de la texturizacion de las hojas del pino a partir de  un componente distribuido con la libreria MASH en Maya qie permite distribuir en un espacio limitado objetos que esten dentro del proyecto, en el pino se utulizo dos conponentes, uno para la base del pino y otra que esta en las hojas, usando la esfera de renderizado que nos proporciona la libreria arnold para darle luminosidad y tambien para que en un prerenderizado pueda verse.
+
+para el modelado del espacio de la universidad, asi mismo como en los otros modelos, se aplico bastante las deformaciones de las figuras para evitar de que el proyecto vaya creciendo de manera exponencial, que lo hace mas pesado y tambien un mayor tiempo de renderizado.
+
+
+para el cesped, con la ayuda de la libreria xgen. para el modelado de cada cesped, y su misma distribucion con ayuda de la libreria MASH, y tambien para la parte de su texturizado apra que asi se vea un pasto mas realista en el modelo final de la Universidad.
+
+
+para la creacion del dinosaurio se utilizo un video de apoyo y se copio el diseño de un dinosaurio del tutorial (el modelado del dinosaurio fue hecho manualmente debido que el tutorial no nos proporciono el modelo pre hecho) dandole asi tambien pivotes de movimiento para hacerlo pasear en la universidad, tambien para que haga una serie de animaciones extras para la presentacion final, incluyendo asi tambien la texturizacion de cada elemento que tenemos en el modelo final de la universidad.
+
+
+
+A grandes razgos y en resumen es lo que podriamos apreciar debido a que si se entra en detalle, cada punto es mas complejo de lo que parece.
+
